@@ -1,4 +1,4 @@
-# [Sebastian Leandro] Portfolio
+# Sebastian Leandro Portfolio
 
 ## Introduction
 Welcome to my personal portfolio! This project showcases my skills and projects as a developer, with a focus on Python, JavaScript, React, and Next.js. Built with a keen eye for design and interactivity, this portfolio is a testament to my journey and capabilities in software development.
@@ -20,8 +20,8 @@ To run this project locally, follow these steps:
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/[sebastian-leandro]/[Portfolio].git
-   cd [Portfolio]
+   git clone https://github.com/sebastian-leandro/Portfolio.git
+   cd Portfolio
 
 2. **Install the Dependencies**
     npm install
@@ -42,6 +42,10 @@ This will start the local server at http://localhost:3000.
 
 - Integration of a blog section to share my knowledge and experiences.
 - Additional case studies of significant projects.
+
+## Website
+
+- https://sebastian-leandro-lime.vercel.app/
 
 ## Acknowledgements
 

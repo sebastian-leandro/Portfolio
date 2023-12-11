@@ -6,6 +6,7 @@ import { EarthCanvas } from './canvas'
 import { SectionWrapper } from '../hoc'
 import { slideIn } from '../utils/motion'
 import { linkedin, github2, whatsapp } from '../assets'
+import emailjs from '@emailjs/browser'
 
 const Contact = () => {
   const formRef = useRef()
