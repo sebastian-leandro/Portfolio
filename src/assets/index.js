@@ -27,7 +27,7 @@ import logoapple from './company/logoapple.png'
 import victoria from './testimonials/victoria.jpg'
 import javascript from './javascript.svg'
 import python from './python.svg'
-import next from './next.svg'
+import next from './nextjs.svg'
 import react from './react.svg'
 
 export {
