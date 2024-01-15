@@ -5,12 +5,11 @@ import {
   redux,
   tailwind,
   nodejs,
-  logochi,
   logomuelles,
   logoempower,
   empoweraction,
+  Poderify,
   muelles,
-  chihuahua,
   santiago,
   felipe,
   logoapple,
@@ -19,7 +18,8 @@ import {
   python,
   next,
   react,
-  javascriptBall
+  javascriptBall,
+  Logopoderify
 } from '../assets'
 
 export const navLinks = [
@@ -89,11 +89,24 @@ const technologies = [
 
 const experiences = [
   {
+    title: 'Front-End Development',
+    company_name: 'PoderiFy',
+    icon: Logopoderify,
+    iconBg: '#703baa',
+    data: 'Oct 2023 - Present',
+    points: [
+      'I am at the forefront of web development, where my primary responsibility involves designing and developing cutting-edge websites.',
+      'I lead the web development initiatives for our clients, ensuring that each project is aligned with their strategic goals.',
+      'Recognizing the power of automation, I implement solutions that streamline processes, reduce manual effort, and increase efficiency.',
+      ' My role in this involves not only developing the front end of websites but also ensuring that they are part of a larger, cohesive digital strategy.'
+    ]
+  },
+  {
     title: 'UX Designer',
     company_name: 'EmpowerAction',
     icon: logoempower,
-    iconBg: '#001537',
-    date: 'Sep 2023 - Present',
+    iconBg: '#224',
+    date: 'Sep 2023 - Nov 2023',
     points: [
       'Front-End and UX Design lead on this web 3.0 Project.',
       'I have meticulously designed the user experience from scratch.',
@@ -130,7 +143,7 @@ const experiences = [
   {
     title: 'Designer',
     company_name: 'Chihuahua',
-    icon: logochi,
+    icon: Poderify,
     iconBg: '#fad207',
     date: 'Apr 2020 - May 2021',
     points: [
@@ -174,25 +187,25 @@ const testimonials = [
 
 const projects = [
   {
-    name: 'Chihuahua',
+    name: 'PoderiFy',
     description:
-      'Chihuahua Tex-Mex is the go-to destination in Buenos Aires for authentic Tex-Mex cuisine, exclusively available for delivery and take-away. Customers can easily place their orders for a true Tex-Mex culinary experience.',
+      'As a passionate and skilled Front End Developer at PoderiFy, I specialize in crafting seamless and dynamic user experiences. My expertise lies in translating complex concepts into tangible solutions.',
     tags: [
       {
-        name: 'Social Media',
+        name: 'Tailwind',
         color: 'blue-text-gradient'
       },
       {
-        name: 'googleads',
-        color: 'white-text-gradient'
+        name: 'JavaScript',
+        color: 'yellow-text-gradient'
       },
       {
-        name: 'service',
-        color: 'pink-text-gradient'
+        name: 'NextJS',
+        color: 'black-text-gradient'
       }
     ],
-    image: chihuahua,
-    source_code_link: 'https://www.instagram.com/chihuahua.ar/'
+    image: Poderify,
+    source_code_link: 'https://poderify.com'
   },
   {
     name: 'Muelles & Marinas',

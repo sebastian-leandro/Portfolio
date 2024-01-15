@@ -51,7 +51,7 @@ const About = () => {
 
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+        className='mt-4 text-secondary font-medium text-pretty text-[17px] max-w-3xl leading-[30px]'
       >
         I'm a software developer with experience in JavaScript and Python, expertise in HTML, CSS, and
         Experience in frameworks like Tailwind, React and node JS. I'm a quick learner and collaborate closely with clients to

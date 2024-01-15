@@ -11,12 +11,11 @@ import nodejs from './tech/nodejs.png'
 import reactjs from './tech/reactjs.png'
 import redux from './tech/redux.png'
 import tailwind from './tech/tailwind.png'
-import logochi from './company/logochi.png'
 import logomuelles from './company/logomuelles.png'
 import logoempower from './company/Logoempower.png'
 import empoweraction from './empoweraction.png'
+import Poderify from './poderify.webp'
 import muelles from './muelles.png'
-import chihuahua from './chihuahua.png'
 import google from './googleicon.png'
 import santiago from './testimonials/santiago.jpg'
 import felipe from './testimonials/felipe.jpg'
@@ -29,8 +28,10 @@ import javascript from './javascript.svg'
 import python from './python.svg'
 import next from './nextjs.svg'
 import react from './react.svg'
+import Logopoderify from './company/Logopoderify.png'
 
 export {
+  Logopoderify,
   logo,
   creator,
   github,
@@ -43,11 +44,9 @@ export {
   reactjs,
   redux,
   tailwind,
-  logochi,
   logomuelles,
   logoempower,
   empoweraction,
-  chihuahua,
   muelles,
   google,
   santiago,
@@ -61,5 +60,6 @@ export {
   react,
   next,
   python,
-  javascriptBall
+  javascriptBall,
+  Poderify
 }
